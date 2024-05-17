@@ -1,0 +1,3 @@
+Welcome to Fantasy-Attack
+
+Problem: For the upcoming fantasy football season, I want a way to perform data analysis quickly in an all in one application. I would like to be able to get data for each position as well as an individual player by player including graphical representations. I want to be able to compare certain players quickly to other players and the league averages (scatter plot with all other individuals and a star with the specific player and line for league average). Additionally, I would like to be able to compare two players. When those players are pulled up, I would like to use some sort of API to put news articles for each of the players
