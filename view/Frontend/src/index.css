@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.menu {
+    display: flex;
+    background-color: #013369;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 64px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.logo {
+    background-color: transparent;
+}
+
+.logo:hover {
+    background-color: lightblue;
+}
