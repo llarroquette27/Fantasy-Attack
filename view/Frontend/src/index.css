@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: lightblue;
+    font-family: sans-serif;
 }
 
 .menu {
@@ -17,10 +18,63 @@
     border-bottom-right-radius: 7px;
 }
 
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainContent {
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 100px;
+}
+
+.description {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.smallDescription {
+    color: white;
+    font-size: 14px;
+}
+
+#largeLogo {
+    height: 300px;
+    width: 300px;
+}
+
 .logo {
-    background-color: transparent;
+    background-color: #013369;
+    width: 48px;
+    height: 64px;
 }
 
 .logo:hover {
     background-color: lightblue;
+}
+
+#nfl:hover {
+    background-color: transparent;
+}
+
+.homePageButton {
+    color: white;
+    border-color: #013369;
+    background-color: transparent;
+    width: 200px;
+    height: 60px;
+    font-size: 32px;
+    margin-top: 70px;
+    border-radius: 5px;;
+}
+
+.homePageButton:hover {
+    background-color: #013369;
 }
